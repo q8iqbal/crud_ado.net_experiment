@@ -37,7 +37,7 @@ namespace crud_app
 
         public static SqlConnection koneksi()
         {
-            string conn_string = "Data Source=q8iqbal.database.windows.net;Initial Catalog=pemvis;Persist Security Info=True;User ID=iqbal;Password=zS9kbG3LQuiq8w2";
+            string conn_string = "Data Source=q8iqbal.database.windows.net;Initial Catalog=pemvis;Persist Security Info=True;User ID=iqbal;Password=secret";
             SqlConnection conn = new SqlConnection(conn_string);
             return conn;
         }
